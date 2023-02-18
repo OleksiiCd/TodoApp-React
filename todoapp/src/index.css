@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(../public/assets/img/space3.webp);
+}
+
+p{
+  border: none;
+}
+
+.todo-app-header{
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.list :hover{
+  cursor: pointer;
+  text-decoration: line-through;
+}
+.notodos :hover{
+  text-decoration: none;
+}
+#inputOne{
+  border-radius: 10px;
+  border-top: 2px solid blue;
+  margin: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
